@@ -1,0 +1,20 @@
+html {
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: auto 0;
+    text-align: center;
+}
+
+img.homepage,
+.recipe-img {
+    border-radius: 2.5%;
+    max-height: 50vh;
+    max-width: 70vh;
+}
+
+h1 {
+
+}
