@@ -16,5 +16,36 @@ img.homepage,
 }
 
 h1 {
-
+    font-size: 5vh;
 }
+
+.recipe-list {
+    list-style: none;
+}
+
+.recipe-list li {
+    padding: 8vh;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ingredients,
+.steps {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.ingredients li,
+.steps li{
+    text-align: left;
+    padding: 0.5em 0;   
+    max-width: 500px;
+}
+
+.steps li {
+    text-align: justify;
+}
+
