@@ -49,3 +49,11 @@ a {
     text-align: justify;
 }
 
+.description p {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 1vh;
+    text-align: justify;
+}
+
