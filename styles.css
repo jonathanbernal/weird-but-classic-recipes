@@ -3,21 +3,25 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.homepage-body {
-    margin: 20vh;
+.homepage-body,
+.recipe-body {
+    margin: 0 auto;
     text-align: center;
 }
 
+.homepage-body {
+  width: 600px;
+}
+
 .recipe-body {
-    margin: 5vh;
-    text-align: center;
+    width: 500px;
 }
 
 img.homepage,
 .recipe-img {
     border-radius: 2.5%;
-    max-height: 50vh;
-    max-width: 70vh;
+    width: 500px;
+    height: 300px;
 }
 
 h1 {
