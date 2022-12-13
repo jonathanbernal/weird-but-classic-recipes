@@ -27,6 +27,7 @@ h1 {
 .recipe-list {
     list-style: none;
     font-size: 1.3em;
+    padding: 0;
 }
 
 .recipe-list li {
