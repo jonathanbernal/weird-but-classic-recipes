@@ -3,8 +3,13 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-    margin: auto 0;
+.homepage-body {
+    margin: 20vh;
+    text-align: center;
+}
+
+.recipe-body {
+    margin: 5vh;
     text-align: center;
 }
 
@@ -21,10 +26,11 @@ h1 {
 
 .recipe-list {
     list-style: none;
+    font-size: 1.3em;
 }
 
 .recipe-list li {
-    padding: 8vh;
+    margin: 2em;
     display: inline;
 }
 
