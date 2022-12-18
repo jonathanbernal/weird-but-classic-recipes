@@ -3,11 +3,23 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.homepage-body {
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-body,
+.recipe-body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.recipe-body {
+    flex-direction: column;
+    background-color: #aaa;
+    padding: 30px;
 }
 
 .homepage-jumbotron {
